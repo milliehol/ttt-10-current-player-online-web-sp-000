@@ -49,7 +49,7 @@ if board1.each == "X" || board1.each == "O"
 end
 end
 
-def current_player
+def current_player(board)
   if turn_count.even? == true
     return "X"
   else
