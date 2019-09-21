@@ -44,7 +44,7 @@ end
 
 def turn_count
   counter = 0
-if board.each do |space|
+if board.each do
   counter += 1
 end
 end
