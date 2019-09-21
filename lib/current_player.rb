@@ -44,7 +44,7 @@ end
 
 def turn_count
   counter = 0
-if my_condition_is_met
+if valid_move == true
   counter += 1
 end
 
