@@ -44,8 +44,8 @@ end
 
 def turn_count(board1)
   counter = 0
-board1.each do
-if board1.each == "O" 
+board1.each do |space|
+if space == "O" 
   counter += 1
 
 end
