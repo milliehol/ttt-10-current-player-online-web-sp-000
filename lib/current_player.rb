@@ -44,10 +44,8 @@ end
 
 def turn_count(board1)
   counter = 0
-  counter2 = 0
-  while counter2<10
-    counter2 +=1
-if board1.each == "X" 
+
+if board1.each == "X" do
   counter += 1
 
 end
