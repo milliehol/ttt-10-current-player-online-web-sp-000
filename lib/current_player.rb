@@ -44,7 +44,7 @@ end
 
 def turn_count
   counter = 0
-if valid_move? == true
+if board.each do |   |
   counter += 1
 end
 end
