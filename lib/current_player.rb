@@ -42,7 +42,7 @@ def turn(board)
   end
 end
 
-def turn_count
+def turn_count(board)
   counter = 0
 if board.each == "X"
   counter += 1
