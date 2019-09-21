@@ -44,10 +44,9 @@ end
 
 def turn_count
   counter = 0
-if valid_move == true
+if valid_move? == true
   counter += 1
 end
-
 end
 
 def current_player
