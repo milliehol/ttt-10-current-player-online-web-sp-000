@@ -41,3 +41,11 @@ def turn(board)
     turn(board)
   end
 end
+
+def turn_count
+
+end
+
+def current_player
+
+end
