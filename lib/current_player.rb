@@ -44,8 +44,8 @@ end
 
 def turn_count(board1)
   counter = 0
-
-if board1.each == "X" do
+board1.each do
+if board1.each == "X" 
   counter += 1
 
 end
