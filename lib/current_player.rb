@@ -47,7 +47,7 @@ def turn_count(board1)
   counter2 = 0
   while counter2<10
     counter2 +=1
-if board1.each == "X" || board1.each == "O"
+if board1.each == "X" 
   counter += 1
 
 end
