@@ -49,9 +49,10 @@ def turn_count(board1)
     counter2 +=1
 if board1.each == "X" || board1.each == "O"
   counter += 1
-  return counter
+  
 end
 end
+return counter
 end
 
 def current_player(board)
