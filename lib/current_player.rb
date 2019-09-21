@@ -49,7 +49,7 @@ def turn_count(board1)
     counter2 +=1
 if board1.each == "X" || board1.each == "O"
   counter += 1
-  
+
 end
 end
 return counter
